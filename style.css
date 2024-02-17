@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #202020;
+    background-color: #161616;
 }
 
 .logo {
@@ -197,7 +197,7 @@ body {
 .about-section img {
     width: auto;
     height: 52vh;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .about-content p {
@@ -499,7 +499,7 @@ textarea.contact-input {
         right: 0;
         width: 100vw;
         transform: 0.2s;
-        background-color: #161616;
+        background-color: #0b0b0cf5;
         overflow: hidden;
     }
 
