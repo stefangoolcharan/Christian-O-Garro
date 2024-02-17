@@ -81,11 +81,11 @@
 
 
     #hero1 {
-        height: 92vh;
+        height: 90vh;
     }
 
     .hero-sec {
-        padding-top: 28vh;
+        padding-top: 25vh;
     }
 
     .hero-content {
@@ -110,6 +110,10 @@
     .hero-btn {
         display: flex;
         flex-direction: column;
+    }
+
+    .hero-btn a{ 
+        margin: 1vh 0vh 1vh 0vh;
     }
 
     .hero-btn a button {

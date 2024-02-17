@@ -488,13 +488,13 @@ textarea.contact-input {
     .logo {
         text-align: center;
         font-size: 3.5vh;
-        padding: 4px 9vw;
+        padding: 4px 1vw;
     }
 
     .nav-items {
         height: 0;
         position: absolute;
-        top: 70px;
+        top: 8vh;
         left: 0;
         right: 0;
         width: 100vw;
@@ -516,7 +516,7 @@ textarea.contact-input {
     .nav-items.active {
         opacity: 1;
         transition: 0.4s;
-        height: 75vh;
+        height: 80vh;
     }
 
     /*Hero Section*/
