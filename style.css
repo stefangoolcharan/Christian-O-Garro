@@ -506,7 +506,7 @@ textarea.contact-input {
     .nav-items a {
         display: block;
         width: fit-content;
-        margin: 80px auto 0 auto;
+        margin: 9vh auto 0 auto;
         text-align: center;
         transition: 0.5s;
         font-size: 2vh;
