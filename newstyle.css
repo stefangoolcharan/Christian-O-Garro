@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+.fix-top {
+    position: fixed;
+}
+
+#hero1 {
+    height: 90vh;
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+.hero-sec {
+    display: flex;
+    justify-content: center;
+    padding-top: 22vh;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    background-color: #202020bb;
+    padding: 6vw;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-family: "Arizonia", cursive;
+    font-weight: 500;
+    font-size: 8vh;
+    color: white;
+    font-style: normal;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.hero-content h4 {
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    letter-spacing: 2px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn a {
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.btn1 button {
+    background: none;
+}
+
+.btn2 button {
+    background: #922b2b94;
+}
+
+.hero-btn a button {
+    padding: 1vw 3vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+
+.hero-btn a button:hover {
+    cursor: pointer;
+    transform: scale(103%);
+    background: none;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    #hero1 {
+        height: 92vh;
+    }
+
+    .hero-sec {
+        padding-top: 28vh;
+    }
+
+    .hero-content {
+        border-radius: 0;
+    }
+
+    .hero-content h1 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;     
+        font-size: 5vh;
+    }
+
+    .hero-content h4 {
+        font-size: 12px;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-btn a button {
+        padding: 2vh;
+        width: 50%;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: white;
+        border: 2px solid;
+        border-color: aliceblue;
+    }
+
+}

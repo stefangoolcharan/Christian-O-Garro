@@ -9,6 +9,8 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    transition: 0.3s;
+
 }
 
 body {
@@ -19,11 +21,12 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    padding: 4vh 8vw;
+    padding: 1.5vh 8.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: #202020;
 }
 
 .logo {
@@ -37,7 +40,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1.6vh;
-    margin-left: 4.6vw;
+    margin-left: 3vw;
 }
 
 .items {
@@ -75,6 +78,10 @@ body {
 
 
 /*Hero Section */
+
+#hero {
+    background-color: #202020;
+}
 
 .hero-section {
     padding: 10vh 10vh 10vw 10vh;
@@ -173,6 +180,8 @@ body {
 .parallax-inner p {
     padding-bottom: 20px;
 }
+
+
 
 .about-section {
     height: 80vh;
@@ -468,7 +477,6 @@ textarea.contact-input {
     header {
         padding: 0 50px;
     }
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -479,19 +487,19 @@ textarea.contact-input {
 
     .logo {
         text-align: center;
-        font-size: 4vh;
-        padding: 0px 10vw;
+        font-size: 3.5vh;
+        padding: 4px 16vw;
     }
 
     .nav-items {
         height: 0;
         position: absolute;
-        top: 100px;
+        top: 66px;
         left: 0;
         right: 0;
         width: 100vw;
         transform: 0.2s;
-        background-color: #73ABBD;
+        background-color: #161616;
         overflow: hidden;
     }
 
@@ -508,7 +516,7 @@ textarea.contact-input {
     .nav-items.active {
         opacity: 1;
         transition: 0.4s;
-        height: 100vh;
+        height: 75vh;
     }
 
     /*Hero Section*/
@@ -526,7 +534,7 @@ textarea.contact-input {
     .hero-contents {
         text-align: center;
         min-width: 60px;
-        background-color: #3A434A;
+        background-color: #3a434ab2;
         padding: 60px;
         margin-left: 0;
     }
@@ -568,8 +576,8 @@ textarea.contact-input {
     }
 
 
-    /*Parallax Secion*/ 
-    .parallax{
+    /*Parallax Secion*/
+    .parallax {
         display: none;
     }
 

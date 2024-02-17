@@ -4,6 +4,7 @@ menu.onclick = function () {
     navBar.classList.toggle("active");
 }
 
+
 const inputs = document.querySelectorAll(".contact-input");
 
 inputs.forEach((ipt) => {
