@@ -488,13 +488,13 @@ textarea.contact-input {
     .logo {
         text-align: center;
         font-size: 3.5vh;
-        padding: 4px 16vw;
+        padding: 4px 12vw;
     }
 
     .nav-items {
         height: 0;
         position: absolute;
-        top: 66px;
+        top: 70px;
         left: 0;
         right: 0;
         width: 100vw;
