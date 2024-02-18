@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+#portfolio {
+    position: relative;
+    top: 10vh;
+}
+
+.portfolio-quote {
+    color: white;
+    text-align: center;
+}
+
+.portfolio-quote h2 {
+    padding: 5vh 0px 2vh 0px;
+    font-size: 5vh;
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+}
+
+.portfolio-quote p{ 
+    font-size: 1.7vh;
+    letter-spacing: 2px;
+}
+
+.camera {
+    padding-bottom: 2vh;
+}
+
+.camera img {
+    height: 3vh;
+    padding: 0px 1vw 0px 1vw;
+}
+
+.camera span {
+    position: relative;
+    bottom: 1.1vh;
+    font-size: 0vh;
+}
+
+.line-1{ 
+    border-bottom: 1px solid;
+    padding-right: 10vw;
+}
+
+.line-2 {
+    border-bottom: 1px solid;
+    padding-left: 10vw;
+}
