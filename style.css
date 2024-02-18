@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #202020;
+    background-color: #161616f3;
 }
 
 .header {
@@ -189,10 +189,10 @@ body {
 
 .about-section {
     height: 80vh;
-    padding: 15vh 15vw 8vw 9vw;
+    padding: 15vh 5vw 8vw 15vw;
     margin-right: 40px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
@@ -489,12 +489,12 @@ textarea.contact-input {
     font-family: 'Pinyon Script', cursive;
 }
 
-.footer-contents p{ 
+.footer-contents p {
     font-size: 1.5vh;
     padding-bottom: 1.5vh;
 }
 
-.footer-items a{ 
+.footer-items a {
     margin: 1vw;
     text-decoration: none;
     color: white;
@@ -504,6 +504,10 @@ textarea.contact-input {
 .footer-socials .fa-brands {
     margin-right: 0;
     margin: 0vh 2vh 0vh 2vh;
+}
+
+.footer-socials .fa-brands:hover {
+    transform: scale(100%);
 }
 
 .footer-socials {
@@ -745,7 +749,7 @@ textarea.contact-input {
         justify-content: center;
     }
 
-    #footer{
+    #footer {
         position: relative;
         top: 55vh;
     }
