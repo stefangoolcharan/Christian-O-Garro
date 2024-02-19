@@ -20,6 +20,7 @@
 .portfolio-quote p {
     font-size: 1.7vh;
     letter-spacing: 2px;
+    padding-bottom: 2vh;
 }
 
 .camera {
@@ -49,7 +50,7 @@
 
 
 #photo-grid {
-    margin-top: 20vh;
+    margin-top: 18vh;
     padding: 2vh;
 }
 
@@ -141,5 +142,9 @@ img {
     .wide {
         grid-column: span 5;
         grid-row: span 3;
+    }
+
+    #footer {
+        top: 0;
     }
 }
