@@ -56,10 +56,12 @@
 
 .btn1 button {
     background: none;
+    box-shadow: 4px 4px 1px #f8f8f8bb;
 }
 
 .btn2 button {
     background: #922b2b94;
+    box-shadow: 4px 4px 1px #f8f8f8bb;
 }
 
 .hero-btn a button {
@@ -85,7 +87,7 @@
     }
 
     .hero-sec {
-        padding-top: 25vh;
+        padding-top: 22vh;
     }
 
     .hero-content {
