@@ -64,12 +64,12 @@ body {
 }
 
 .fa-brands {
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .fa-brands:hover {
     cursor: pointer;
-    transform: scale(115%);
+    transform: scale(120%);
 }
 
 .menu {
