@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="newstyle.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" type="image/x-icon" href="./assets/icon.png">
     <script src="https://kit.fontawesome.com/d65685273d.js" crossorigin="anonymous"></script>
@@ -39,7 +40,7 @@
                 <p>Unleashing the Art of Photography: Every Frame a Story, Every Click a Journey.</p>
 
                 <div class="hero-btn">
-                    <a href="./portfolio.html" class="btn1"><button>Portfolio</button></a>
+                    <a href="./portfolio.html" class="btn1 animate__animated"><button>Portfolio</button></a>
                     <a href="#contact" class="btn2"><button>Hire Me</button></a>
                 </div>
 
@@ -57,8 +58,8 @@
 
     <section id="about">
         <div class="about-section">
-            <img src="assets/about-me.jpg">
-            <div class="about-content">
+            <img data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" src="assets/about-me.jpg">
+            <div class="about-content" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                 <h2>HI, I'M CHRISTIAN O'GARRO</h2>
                 <p>
                     Integer vel congue orci. In iaculis dui vel odio varius, sed pretium dui vehicula. Mauris imperdiet
@@ -166,7 +167,9 @@
                 <a class="items" href="#contact">CONTACT</a>
             </div>
             <div class="footer-socials">
-                <a href="https://www.instagram.com/c.ogarro_photography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+                <a
+                    href="https://www.instagram.com/c.ogarro_photography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                        class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
                 <a><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></a>
                 <a><i class="fa-brands fa-tiktok fa-lg" style="color: #ffffff;"></i></a>
             </div>
@@ -175,6 +178,11 @@
     </footer>
 
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

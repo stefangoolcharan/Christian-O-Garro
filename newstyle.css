@@ -5,7 +5,7 @@
 }
 
 #hero1 {
-    height: 90vh;
+    height: 92vh;
     background-image: url(./assets/hero.jpg);
     background-size: cover;
     margin-bottom: 10vh;
@@ -57,12 +57,27 @@
 .btn1 button {
     background: none;
     box-shadow: 4px 4px 1px #f8f8f8bb;
+    animation: icon_animate 2s infinite;
+}
+
+@keyframes icon_animate {
+    50% {
+        transform: translateY(10%);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
 }
 
 .btn2 button {
     background: #922b2b94;
     box-shadow: 4px 4px 1px #f8f8f8bb;
+    animation: icon_animate 2s infinite;
 }
+
+
+
 
 .hero-btn a button {
     padding: 1vw 3vw;
@@ -96,7 +111,7 @@
 
     .hero-content h1 {
         margin-top: 2vh;
-        margin-bottom: 2vh;     
+        margin-bottom: 2vh;
         font-size: 5vh;
     }
 
@@ -114,7 +129,7 @@
         flex-direction: column;
     }
 
-    .hero-btn a{ 
+    .hero-btn a {
         margin: 1vh 0vh 1vh 0vh;
     }
 
@@ -129,7 +144,3 @@
     }
 
 }
-
-
-
-
