@@ -5,6 +5,13 @@ menu.onclick = function () {
 }
 
 
+document.addEventListener("click", function (event) {
+    if (!menu.contains(event.target)) {
+        navBar.classList.remove("active");
+    }
+});
+
+
 const inputs = document.querySelectorAll(".contact-input");
 
 inputs.forEach((ipt) => {
@@ -19,3 +26,4 @@ inputs.forEach((ipt) => {
         ipt.parentNode.classList.remove("focus");
     });
 });
+

@@ -62,21 +62,18 @@
 
 @keyframes icon_animate {
     50% {
-        transform: translateY(10%);
+        transform: translateY(8%);
     }
 
     50% {
-        transform: translateY(-10%);
+        transform: translateY(-8%);
     }
 }
 
 .btn2 button {
     background: #922b2b94;
     box-shadow: 4px 4px 1px #f8f8f8bb;
-    animation: icon_animate 2s infinite;
 }
-
-
 
 
 .hero-btn a button {
@@ -96,9 +93,8 @@
 
 @media only screen and (max-width: 900px) {
 
-
     #hero1 {
-        height: 90vh;
+        height: 92vh;
     }
 
     .hero-sec {

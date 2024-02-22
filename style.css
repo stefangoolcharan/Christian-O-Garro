@@ -10,10 +10,11 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     transition: 0.3s;
-
 }
 
 body {
+
+    overflow-x: hidden;
     background-color: #161616f3;
 }
 
@@ -184,12 +185,14 @@ body {
 /*About Section*/
 
 #about {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     height: 80vh;
 }
 
 .about-section {
     height: 80vh;
-    padding: 15vh 5vw 8vw 15vw;
+    padding: 10vh 5vw 8vw 15vw;
     margin-right: 40px;
     display: flex;
     flex-direction: row;
@@ -227,6 +230,10 @@ body {
 }
 
 /*Contact Section*/
+
+#contact {
+    padding-top: 8vh;
+}
 
 .form-wrapper {
     max-width: 50rem;
@@ -526,6 +533,10 @@ textarea.contact-input {
     header {
         padding: 0 50px;
     }
+
+    #about{ 
+        height: 10vh;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -565,7 +576,7 @@ textarea.contact-input {
     .nav-items.active {
         opacity: 1;
         transition: 0.4s;
-        height: 80vh;
+        height: 84.5vh;
     }
 
     /*Hero Section*/
