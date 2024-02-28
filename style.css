@@ -536,7 +536,7 @@ textarea.contact-input {
         padding: 0 50px;
     }
 
-    #about{ 
+    #about {
         height: 10vh;
     }
 }
@@ -714,9 +714,17 @@ textarea.contact-input {
         margin: 0vh 2vh 0vh 2vh;
     }
 
+    .btn.upload {
+        margin-bottom: 2vh;
+    }
+
     .btn {
         padding: 2vh 2vh;
-        
+        width: 100%;
+    }
+
+    .w-100 {
+        display: inline-block;
     }
 
     /*Contact Section - Contact Details*/
