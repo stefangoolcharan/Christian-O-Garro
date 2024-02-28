@@ -56,8 +56,9 @@
 
 .btn1 button {
     background: none;
+    border-radius: 1vh;
     box-shadow: 4px 4px 1px #f8f8f8bb;
-    animation: icon_animate 2s infinite;
+    /* animation: icon_animate 2s infinite;*/
 }
 
 @keyframes icon_animate {
@@ -72,6 +73,7 @@
 
 .btn2 button {
     background: #922b2b94;
+    border-radius: 1vh;
     box-shadow: 4px 4px 1px #f8f8f8bb;
 }
 
